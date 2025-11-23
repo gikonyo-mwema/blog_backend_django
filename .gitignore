@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Django & database stuff
+*.sqlite3
+db.sqlite3
+
+# Django logs
+*.log
+
+# Media files (optional — remove if you want them versioned)
+media/
+
+# Static files (Django collects these)
+staticfiles/
+static/
+assets/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pytest / coverage / build
+.coverage
+htmlcov/
+pytest_cache/
+dist/
+build/
+
